@@ -76,34 +76,3 @@ body{
   color: hsl(240, 18%, 77%);
 }
 
-@media(min-width: 800px){
-  .container{
-    flex-direction: row-reverse;
-    width: 90vw;
-    height: 70vh;
-    background-image: url("images/pattern-curve.svg"), url("images/pattern-quotes.svg"),url("images/pattern-bg.svg");
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: bottom left, center, right;
-    background-size: 300px, 5rem, 38.5rem;
-  }
-  .image__container{
-    width: 200rem;
-    position: relative;
-    padding-right: 5rem;
-    margin-bottom: 7rem;
-  }
-  .button__container{
-    align-self: flex-end;
-    position: relative;
-    height: 4rem;
-    width: 8rem;
-  }
-  .text__container{
-    text-align: left;
-    position: relative;
-  }
-  .footer{
-    display: flex;
-    align-self: flex-end;
-  }
-}
